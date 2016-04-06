@@ -1,0 +1,213 @@
+html, body , #wrapper 
+{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body
+{
+    display: flex;
+    background-image: url("1c3a89d865f64b54d3825dc27dbf7816_large.jpeg");
+    background-repeat: repeat;
+}
+
+nav
+{
+    background-image: url("2Q==.jpeg");
+    background-repeat: repeat;
+    width: 10%;
+    height: 100%;
+}
+
+h1
+{
+    text-align: center;
+    font-size: 50px;
+}
+
+h2
+{
+	color: green;
+    font-size: 25px;
+    font-family: 'OpenSans-Regular';
+}
+
+ul, li
+{
+    text-align: justify;
+}
+
+#wrapper 
+{
+    width: 90%;
+}
+
+#corps, #nav 
+{
+    display: inline-block;
+    vertical-align: top;
+} 
+
+.presentation
+{
+	text-align: center;
+	font-size: 25px;
+}
+
+.photo_profil
+{
+    border: 3px black groove;
+    box-shadow: 6px 6px 0px black;
+    float: right;
+    line-height:0px;
+    font-size:0px;
+}
+
+.contenu
+{
+    display: flex;
+}
+
+.Formation
+{
+    width: 20%;
+    padding: 6px;
+    margin: 25px;
+}
+
+.Experiencesprofessionnelles
+{
+    width: 20%;
+    padding: 6px;
+    margin: 25px;
+}
+
+.Projets
+{
+    width: 20%;
+    padding: 6px;
+    margin: 25px;
+}
+
+.Competences
+{
+    width: 20%;
+    padding: 6px;
+    margin: 25px;
+}
+
+.Centresdinterets
+{
+    width: 20%;
+    padding: 6px;
+    margin: 25px;
+}
+
+@font-face {
+    font-family: 'OpenSans-Regular';
+    src: url('OpenSans-Regular-webfont.eot') format('eot'),
+         url('OpenSans-Regular-webfont.woff') format('woff'),
+         url('OpenSans-Regular-webfont.ttf') format('truetype'),
+         url('OpenSans-Regular-webfont.svg') format('svg');
+}
+
+/* Nouvelles règles si la fenêtre fait au plus 1024px de large */
+@media screen and (max-width: 1024px)
+{
+
+    body
+    {
+        display: flex;
+        background-image: url("1c3a89d865f64b54d3825dc27dbf7816_large.jpeg");
+        background-repeat: repeat;
+    }
+
+    h1
+    {
+        text-align: center;
+        font-size: 50px;
+    }
+
+    h2
+    {
+        color: green;
+        font-size: 25px;
+        font-family: 'OpenSans-Regular';
+    }
+
+    ul, li
+    {
+        text-align: justify;
+    }
+
+    nav
+    {
+        height: 0%;
+        width: 0%;
+    }
+
+    .presentation
+    {
+        text-align: center;
+        font-size: 25px;
+    }
+
+    .photo_profil
+    {
+        border: 3px black groove;
+        box-shadow: 6px 6px 0px black;
+        float: right;
+        line-height:0px;
+        font-size:0px;
+    }
+
+    .contenu
+    {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .Formation
+    {
+        width: 100%;
+        padding: 5px;
+        margin: 5px;
+    }
+
+    .Experiencesprofessionnelles
+    {
+        width: 100%;
+        padding: 5px;
+        margin: 5px;
+    }
+
+    .Projets
+    {
+        width: 100%;
+        padding: 5px;
+        margin: 5px;
+    }
+
+    .Competences
+    {
+        width: 100%;
+        padding: 5px;
+        margin: 5px;
+    }
+
+    .Centresdinterets
+    {
+        width: 100%;
+        padding: 5px;
+        margin: 5px;
+    }
+
+    @font-face {
+        font-family: 'OpenSans-Regular';
+        src: url('OpenSans-Regular-webfont.eot') format('eot'),
+             url('OpenSans-Regular-webfont.woff') format('woff'),
+             url('OpenSans-Regular-webfont.ttf') format('truetype'),
+             url('OpenSans-Regular-webfont.svg') format('svg');
+    }
+}
